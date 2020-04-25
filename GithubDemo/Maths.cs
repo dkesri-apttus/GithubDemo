@@ -18,7 +18,7 @@ namespace GithubDemo {
 
         public int Divide(int a, int b) {
             if(b == 0) {
-                throw new Exception("Invalid parameter");
+                throw new Exception("Second parameter must not be zero");
             }
 
             return a / b;
