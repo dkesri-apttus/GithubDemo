@@ -17,6 +17,10 @@ namespace GithubDemo {
         }
 
         public int Divide(int a, int b) {
+            if(b == 0) {
+                throw new Exception("Invalid parameter");
+            }
+
             return a / b;
         }
     }
