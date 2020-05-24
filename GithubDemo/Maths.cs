@@ -13,16 +13,6 @@ namespace GithubDemo {
 
         public int Multiply(int a, int b) {
             return a * b;
-        }
-
-        /// <summary>
-        /// Divides a number
-        /// </summary>
-        /// <param name="a"></param>
-        /// <param name="b"></param>
-        /// <returns></returns>
-        public float Divide(float a, float b) {
-            return a / b;
-        }
+        }        
     }
 }
