@@ -9,8 +9,7 @@ namespace GithubDemo {
 
             var sum = math.Add(a, b);
             var diff = math.Subtract(a, b);
-            var multiplication = math.Multiply(a, b);
-            var division = math.Divide(a, b);
+            var multiplication = math.Multiply(a, b);            
         }
     }
 }
