@@ -21,7 +21,7 @@ namespace GithubDemo {
         /// <param name="a"></param>
         /// <param name="b"></param>
         /// <returns></returns>
-        public int Divide(int a, int b) {
+        public float Divide(float a, float b) {
             if(b == 0) {
                 throw new Exception("Second parameter must not be zero");
             }
