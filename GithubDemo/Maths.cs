@@ -21,7 +21,7 @@ namespace GithubDemo {
         /// <param name="a"></param>
         /// <param name="b"></param>
         /// <returns></returns>
-        public int Divide(int a, int b) {
+        public float Divide(float a, float b) {
             return a / b;
         }
     }
